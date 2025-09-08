@@ -1,4 +1,4 @@
-import { Desktpp } from "@wxcc-desktop/sdk";
+import { Desktop } from "@wxcc-desktop/sdk";
 
 (function initOutdialHelper() {
 	try {
@@ -23,4 +23,5 @@ import { Desktpp } from "@wxcc-desktop/sdk";
 	}catch (err) {
 		console.error("[Outdial Helper] Initialisation Failed:", err);
 	}
+
 }) ();
